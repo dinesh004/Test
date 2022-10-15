@@ -1,0 +1,19 @@
+<form [formGroup]="form" (submit)="submit()">
+    <div class="main">
+        <div class="login">
+            <h1>Login</h1>
+
+
+            <p>Email</p><br>
+            <input type="text" class="txt" placeholder="Enter Email" formControlName="email">
+            <hr><br>
+            <p>Password</p>
+            <br>
+            <input type="password" class="txt" placeholder="Enter Password" formControlName="password">
+            <hr>
+
+            <button type="submit" class="btn">LOGIN</button>
+        </div>
+
+    </div>
+  </form>
